@@ -1,0 +1,315 @@
+/*Normalizacion*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    text-decoration: none;
+    text-decoration-color: black;
+    font-family: sans-serif ;
+    list-style-type: none; 
+}
+/*roots*/
+
+
+/*Inicio Header*/
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: -15px;
+
+    
+}
+.Logo{
+    width: 120px;
+}
+.Flag-lenguage{
+    width: 30px;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 18px;
+}
+.nav-left{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.Login{
+    border:2px solid black;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;}
+.menu-btn{
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    gap: 0px;
+} 
+/* Hero contenedor*/
+.hero{
+    margin:0;
+    padding: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.title-section-suscription{
+    border: 0;
+    width: 500px;
+    font-size:36px;
+    text-wrap: 10px;
+    font-weight:700;
+    letter-spacing: 2px;
+    
+}
+.Descuento{
+    font-size: 20px;
+    font-weight:700;
+    ;
+
+}
+.porciento{
+    color: rgb(130, 2, 104);
+}
+.check-ico{
+    list-style-type: " ✓  " ;
+    background-size: contain;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+}
+
+.MONEDA{font-size: 16px;}
+.PRICE{font-size: 57PX;
+font-weight:700px}
+.MONTH{font-size:16px ;}
+.promo{font-size: 20px;
+padding-bottom: 10%;}   
+
+
+.img-Section{
+    width: 50%;
+    height: 100%;
+}
+.start{
+    border: 10px solid rgb(87, 3, 108);
+    border-radius: 5px;
+    text-decoration-color: transparent;
+    color: white;
+    background-color: blueviolet;
+    
+}
+.Creation-web{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left:  50px;
+}
+
+.Menu-option{
+    display: none;
+}
+/*Section dos*/
+.section-dos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: rgb(54, 2, 102);
+    color: white;
+    padding: 4%;
+    gap: 100px;
+}
+.Migracion-container{
+    margin-top:60px;
+    width: 100%;
+    height: 136;
+    margin: 0px;
+    text-align: center;
+}
+.Title-Migracion{
+    font-size: 36px;
+    margin: 0px;
+    padding-bottom: 30px;
+}
+.Target-pres{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: justify;
+}
+.target{
+    padding: 15px;
+    background-color: rgb(85, 5, 97);
+    border: 12px transparent ;
+    border-radius: 10px;
+    width: 30%;
+    height: 300px;
+}
+.target-ico{
+    border: 2px solid rgb(74, 9, 74);
+    background-color:  rgb(74, 9, 74);
+    padding: 10px;
+    border-radius: 20%;
+}
+h3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.Empezar{
+    padding: 10px;
+    border: 2px solid violet;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
+/*Footer*/
+.Footer-indice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:10px;
+    font-size: 14px;
+    margin-left: 2.5%;
+}
+ul li{
+    margin-bottom: 10px;
+}
+li a{font-size: 16px;}
+div h2{
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.footer-logo{
+    width: 160px;
+    height: 100px;
+    margin-left: 50px;
+    }
+.footer-social{
+    display:flex ;
+    justify-content: space-between;
+    align-items: row;
+    
+}
+i{
+    font-size: 40px;
+    margin-right: 10px;
+    
+}
+.redes-sociales{
+margin-right: 0;
+display: flex;
+align-items: center;}
+
+.MDP{width: 70px;
+    margin-left: 20px;}
+.Medios-de-pago-container{
+    display: flex;
+    align-items: center;
+
+}
+
+footer section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.Footer-politicas{
+    display: flex;
+    flex-direction: column;
+}
+.Politicas{ 
+    margin-right: 80px;
+    
+    
+}
+
+@media screen and (max-width: 1200px){
+    .hero {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0;
+    
+    }
+    .Target-pres{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;}
+    .Migracion-container{
+
+    }
+    .img-Section{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    .Footer-indice{display: none;}
+
+    .footer-social{
+        align-items: column;
+    }
+    .Footer-politicas{
+        align-items: column;
+    }
+    .section div img{
+        align-items:column;
+    }
+    .Creation-web{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.text{
+    font-size: 25px;
+}
+
+    .title-section-suscription{
+    width: 100%;
+}
+    .nav-boton{
+        display: none;
+    }
+    .nav-boton{
+        display: none;
+    }
+
+    .Menu-option{
+        display: flex;
+}
+    .target{
+        width: 100%;
+        font-size: 22px;
+}
+    .Politicas{
+        display: flex;
+        align-items: column;
+        padding-left: 10%;
+        
+}
+}
